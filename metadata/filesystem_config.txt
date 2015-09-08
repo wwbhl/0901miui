@@ -35,13 +35,14 @@ system/app/LiveWallpapers.apk 0 0 644
 system/app/LiveWallpapersPicker.apk 0 0 644
 system/app/LockClock.apk 0 0 644
 system/app/MagicSmokeWallpapers.apk 0 0 644
-system/app/Nfc.apk 0 0 644
+system/app/Nfc1.apk 0 0 644
 system/app/NoiseField.apk 0 0 644
 system/app/PackageInstaller.apk 0 0 644
 system/app/PacProcessor.apk 0 0 644
 system/app/PhaseBeam.apk 0 0 644
 system/app/PhotoPhase.apk 0 0 644
 system/app/PhotoTable.apk 0 0 644
+system/app/PicoTts.apk 0 0 644
 system/app/PinyinIME.apk 0 0 644
 system/app/PrintSpooler.apk 0 0 644
 system/app/Provision.apk 0 0 644
@@ -102,9 +103,11 @@ system/bin/dumpstate 0 2000 755
 system/bin/dumpsys 0 2000 755
 system/bin/e2fsck 0 2000 755
 system/bin/erase_image 0 2000 755
+system/bin/fibmap.f2fs 0 2000 755
 system/bin/flash_image 0 2000 755
 system/bin/fRom 0 2000 755
 system/bin/fsck.exfat 0 2000 755
+system/bin/fsck.f2fs 0 2000 755
 system/bin/fsck_msdos 0 2000 755
 system/bin/gdbserver 0 2000 755
 system/bin/geomagneticd 0 2000 755
@@ -159,6 +162,7 @@ system/bin/mfgloader 0 2000 755
 system/bin/mkdir 0 2000 755
 system/bin/mke2fs 0 2000 755
 system/bin/mkfs.exfat 0 2000 755
+system/bin/mkfs.f2fs 0 2000 755
 system/bin/mksh 0 2000 755
 system/bin/mkswap 0 2000 755
 system/bin/monkey 0 2000 755
@@ -190,7 +194,6 @@ system/bin/racoon 0 2000 755
 system/bin/radiooptions 0 2000 755
 system/bin/readlink 0 2000 755
 system/bin/reboot 0 2000 755
-system/bin/recovery 0 2000 755
 system/bin/renice 0 2000 755
 system/bin/requestsync 0 2000 755
 system/bin/restart 0 2000 755
@@ -253,6 +256,7 @@ system/bin/touch 0 2000 755
 system/bin/tune2fs 0 2000 755
 system/bin/uiautomator 0 2000 755
 system/bin/umount 0 2000 755
+system/bin/uncrypt 0 0 750
 system/bin/updater 0 2000 755
 system/bin/uptime 0 2000 755
 system/bin/vdc 0 2000 755
@@ -360,7 +364,9 @@ system/etc/permissions/com.android.media.remotedisplay.xml 0 0 644
 system/etc/permissions/com.android.nfc_extras.xml 0 0 644
 system/etc/permissions/com.cyanogenmod.android.xml 0 0 644
 system/etc/permissions/com.cyanogenmod.nfc.enhanced.xml 0 0 644
+system/etc/permissions/com.cyngn.screencast.xml 0 0 644
 system/etc/permissions/com.cyngn.updater.xml 0 0 644
+system/etc/permissions/com.nextbit.android.xml 0 0 644
 system/etc/permissions/com.nxp.mifare.xml 0 0 644
 system/etc/permissions/com.tmobile.software.themes.xml 0 0 644
 system/etc/permissions/handheld_core_hardware.xml 0 0 644
@@ -904,7 +910,8 @@ system/lib/libinput.so 0 0 644
 system/lib/libion.omap4.so 0 0 644
 system/lib/libion_ti.so 0 0 644
 system/lib/libiprouteutil.so 0 0 644
-system/lib/libjackpal-androidterm4.so 0 0 644
+system/lib/libjackpal-androidterm5.so 0 0 644
+system/lib/libjackpal-termexec2.so 0 0 644
 system/lib/libjavacore.so 0 0 644
 system/lib/libjavacrypto.so 0 0 644
 system/lib/libjhead_jni.so 0 0 644
@@ -1348,7 +1355,6 @@ system/priv-app/Keyguard.apk 0 0 644
 system/priv-app/MediaProvider.apk 0 0 644
 system/priv-app/Mms.apk 0 0 644
 system/priv-app/OneTimeInitializer.apk 0 0 644
-system/priv-app/PicoTts.apk 0 0 644
 system/priv-app/ProxyHandler.apk 0 0 644
 system/priv-app/Settings.apk 0 0 644
 system/priv-app/SettingsProvider.apk 0 0 644
@@ -1800,6 +1806,7 @@ system/xbin/unix2dos 0 2000 755
 system/xbin/unlzma 0 2000 755
 system/xbin/unlzop 0 2000 755
 system/xbin/unpigz 0 2000 755
+system/xbin/unrar 0 2000 755
 system/xbin/unxz 0 2000 755
 system/xbin/unzip 0 2000 755
 system/xbin/uptime 0 2000 755
@@ -1818,3 +1825,4 @@ system/xbin/xz 0 2000 755
 system/xbin/xzcat 0 2000 755
 system/xbin/yes 0 2000 755
 system/xbin/zcat 0 2000 755
+system/xbin/zip 0 2000 755
