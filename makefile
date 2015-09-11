@@ -48,8 +48,6 @@ local-pre-zip-misc:
 		cp other/boot.img $(ZIP_DIR)/boot.img
 		@echo "system"
 		cp -a -rf other/system/* $(ZIP_DIR)/system/
-		@echo "[wwbhl CUST] data"
-		cp -a -rf other/data/* $(ZIP_DIR)/data/
 		@echo "[wwbhl CUST] goodbye! miui prebuilt binaries!"
 		echo "ro.miui.has_real_blur=0" >> $(ZIP_DIR)/system/build.prop
 		cp -rf stockrom/system/bin/app_process $(ZIP_DIR)/system/bin/app_process
