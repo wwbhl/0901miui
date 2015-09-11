@@ -18377,7 +18377,7 @@
 
     iput v3, v14, Landroid/graphics/Rect;->top:I
 
-    iput v3, v13 Landroid/graphics/Rect;->top:I
+    iput v3, v13, Landroid/graphics/Rect;->top:I
 
     iput v3, v12, Landroid/graphics/Rect;->top:I
 
